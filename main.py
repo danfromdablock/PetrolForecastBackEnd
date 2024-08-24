@@ -292,7 +292,6 @@ def upload_file():
         df = pd.read_excel(filepath)
         # You can now use df to get the relevant data for forecasting
 
-        # Example of returning mock forecast data
         forecast_data = {
             'labels': list(df.index),
             'values': list(df['production'])  # Adjust this based on your dataframe structure
